@@ -13,6 +13,14 @@ body{
     background-color: #626cd6;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 /* Container Section */
 .container{
     width: 100%;
@@ -54,7 +62,6 @@ body{
     margin: 34px 0 24px 0;
     border: 1px solid #dadaf2;
     border-radius: 5px;
-    text-decoration: none;
 }
 
 .select-option a:hover{
@@ -104,4 +111,36 @@ body{
     font-size: 15px;
     outline: none;
     background-color: #f8f8fb;
+}
+
+.input-section input:focus{
+    border-color: #626cd6;
+}
+
+.input-section label{
+    display: block;
+    margin-bottom: 8px;
+}
+.input-section .pass-label-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container button{
+    background-color: #626CD6;
+    color: #fff;
+    height: 55px;
+    width: 100%;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.container button:hover{
+    background-color: #4954d0;
 }
